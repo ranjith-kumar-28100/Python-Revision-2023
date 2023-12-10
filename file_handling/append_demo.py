@@ -1,0 +1,7 @@
+f = open('sample.txt','a+')
+print(f.tell())
+f.write('rtssfssff\nafdadfaaa\n')
+print(f.tell())
+f.seek(0)
+print(f.readlines())
+f.close()

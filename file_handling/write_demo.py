@@ -1,0 +1,8 @@
+f = open('sample.txt','w+')
+f.write("Python is my bae\n")
+f.writelines(["ML\n","AI\n","DL\n"])
+print(f.tell())
+f.seek(0)
+print(f.tell())
+print(f.read())
+f.close()

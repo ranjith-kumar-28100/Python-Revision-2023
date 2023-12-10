@@ -1,0 +1,28 @@
+l1 =[]
+print(l1, type(l1))
+l1 = [5,6,7,"Ranjith",True,-9.0]
+print(l1)
+print(len(l1))
+print(l1[0:])
+print(l1[:len(l1)])
+print(l1[3])
+print(l1[-1])
+l1.append(9)
+print(l1)
+l1.append(False)
+print(l1)
+l1.remove(False)
+print(l1)
+del l1[0]
+print(l1)
+l1.pop()
+print(l1)
+l2 =[7,8,2,100,9.8]
+l2.insert(2,999)
+print(max(l2))
+print(min(l2))
+print(l2)
+l2.sort()
+print(l2)
+l2.sort(reverse=True)
+print(l2)
